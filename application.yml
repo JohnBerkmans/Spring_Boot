@@ -1,0 +1,17 @@
+greeting.message: hello World
+app:
+ name: spring.boot.config
+ description: welcome to ${app.name}
+# List of String as a Property
+my.list.values: One,Two,Three
+# Map as Property[key and Value]
+dbValues: "{ConnectionString: 'http://_',userName: 'foo',pwd: 'password'}"
+db:
+  connection: "{ConnectionString: 'http://_',userName: 'foo',pwd: 'password'}"
+  host: 127.0.0.1
+  port: 1200
+
+# To Expose the all the configuration to the Rest API - * means expose everything
+management.endpoints.web.exposure.include: "*"
+
+spring.profiles.active: test
