@@ -1,4 +1,4 @@
-greeting.message: hello World from config server
+greeting.message:updated hello World from config server
 app:
  name: spring.boot.config
  description: welcome to ${app.name}
