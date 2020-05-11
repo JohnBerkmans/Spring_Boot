@@ -14,4 +14,4 @@ db:
 # To Expose the all the configuration to the Rest API - * means expose everything
 management.endpoints.web.exposure.include: "*"
 
-spring.profiles.active: test
+# spring.profiles.active: test
