@@ -1,7 +1,4 @@
-greeting.message:updated hello World from config server
-app:
- name: spring.boot.config
- description: welcome to ${app.name}
+greeting.message: updated hello World from config server
 # List of String as a Property
 my.list.values: One,Two,Three
 # Map as Property[key and Value]
